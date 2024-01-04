@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <title>rOCK pAPER sCISSORS</title>
+</head>
+<body>
+    <p class="header-text">rOcK pApEr sCiSsOrS</p>
+    <div id="btn-container">
+        <button class="btn" onclick="rockFunction()"><img src="rock-removebg-preview.png" alt="rockButton Image"></button>
+        <button class="btn" onclick="paperFunction() "><img src="paper-removebg-preview.png" alt="paperButton Image"></button>
+        <button class="btn" onclick="scissorFunction()"><img src="scissor-removebg-preview.png" alt="scissorButton Image"></button>
+    </div>
+    <button class="clearBtn" onclick="clearFunction() "><img src="restart-removebg-preview.png" alt="restartButton Image"></button><br>
+    <div id="output-display">
+    <h1 id="you-text">You</h1><h1 id="comp-text">Computer</h1><h1 id="tie-text">Tied</h1></div>
+    <div id="display-container">
+        <input type="text" readonly id="user-counter">
+        <input type="text" readonly id="comp-counter">
+        <input type="text" readonly id="tie-counter">
+        <!--<div id="user-out-counter">
+            
+        </div>
+        <div id="comp-out-counter">
+            
+        </div>
+        <div id="tie-out-counter">
+            
+        </div>-->
+    </div>
+</body>
+    <script src="script.js">
+        
+    </script>
+</html>

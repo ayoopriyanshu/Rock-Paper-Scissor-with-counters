@@ -1,0 +1,209 @@
+html,body{
+    background-color: #6F6B66;
+    animation: ambientColorChange3 1s infinite alternate-reverse;
+    width: 100%;
+    height: 100%;
+}
+.header-text{
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 545;
+    color: #392467;
+    position: relative;
+    bottom: 25px;
+    animation: ambientColorChange 1s infinite alternate-reverse;
+}
+
+#btn-container{
+    overflow: hidden;
+    text-align: center;
+    padding: 2px;
+    font-size: 10px;
+    position: relative;
+    bottom: 40px;
+}
+
+.clearBtn{
+    overflow: hidden;
+    border: none;
+    align-items: center;
+    font-size: 10px;
+    width: 200px;
+    background: none;
+    position: relative;
+    bottom: 280px;
+    left: 1100px;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+@keyframes ambientColorChange {
+    0% {
+        color: #392467;
+    }
+    25% {
+        color: #5D3587;
+    }
+    50% {
+        color: #A367B1;
+    }
+    75% {
+        color: #FFD1E3;
+    }
+    100% {
+        color: #F8DE7E;
+    }
+}
+
+.btn{
+    overflow:hidden;
+    border: none;
+    align-items: center;
+    font-size: 10px;
+    width: 220px;
+    padding: 1px;
+    background: none;
+}
+
+#rock img{
+    width: 100%;
+    height: auto;
+}
+
+#paper img{
+    width: 100%;
+    height: auto;
+}
+
+#scissor img{
+    width: 100%;
+    height: auto;
+}
+
+#clear img{
+    width: 10px;
+    height: auto;
+}
+
+@keyframes ambientColorChange2 {
+    0% {
+        color: #3D0C11;
+    }
+    25% {
+        color: #D80032;
+    }
+    50% {
+        color: #F78CA2;
+    }
+    75% {
+        color: #F78CA2;
+    }
+    100% {
+        color: #F9DEC9;
+    }
+}
+
+@keyframes ambientColorChange3 {
+    0% {
+        background-color: #6F6B66;
+    }
+    25% {
+        background-color: #53504D;
+    }
+    50% {
+        background-color: #383633;
+    }
+    75% {
+        background-color: #1C1B1A;
+    }
+    100% {
+        background-color: #000000;
+    }
+}
+
+#display-container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 2000px;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    bottom: 150px;
+    
+}
+
+#output-display{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    bottom: 250px;
+}
+
+#user-counter{
+    background-color: transparent;
+    text-align: left;
+    color: #3D0C11;
+    animation: ambientColorChange2 1s infinite alternate-reverse;
+    font-size:65px;
+    border: none;
+    position: relative;
+    right: 150px;
+    bottom: 275px;
+}
+
+#comp-counter{
+    background-color: transparent;
+    color: #3D0C11;
+    animation: ambientColorChange2 1s infinite alternate-reverse;
+    text-align: center;
+    font-size:65px;
+    border: none;
+    position: relative;
+    right: 720px;
+    bottom: 275px;
+}
+
+#tie-counter{
+    background-color: transparent;
+    color: #3D0C11;
+    animation: ambientColorChange2 1s infinite alternate-reverse;
+    text-align: left;
+    font-size:65px;
+    border: none;
+    position: relative;
+    right: 100px;
+    bottom: 350px;
+    left: 680px;
+}
+
+#you-text{
+    color: #3D0C11;
+    animation: ambientColorChange2 1s infinite alternate-reverse;
+    text-align: left;
+    position: relative;
+    top: 110px;
+    left: 40px;
+}
+
+#comp-text{
+    color: #3D0C11;
+    animation: ambientColorChange2 1s infinite alternate-reverse;
+    position: relative;
+    top: 40px;
+}
+
+#tie-text{
+    color: #3D0C11;
+    animation: ambientColorChange2 1s infinite alternate-reverse;
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+    right: 40px;
+}
